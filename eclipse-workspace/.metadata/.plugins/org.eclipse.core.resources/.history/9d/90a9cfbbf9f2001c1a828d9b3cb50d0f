@@ -1,0 +1,20 @@
+package com.test.testng.orangeHrm;
+
+import Pages.HomePage;
+import Pages.LeavePage;
+import Pages.LoginPage;
+
+public class AssignLeaveTest extends Base {
+	LoginPage loginPage;
+	HomePage homepage;
+	LeavePage leavepage;
+
+	public AssignLeaveTest() {
+		super();
+	}
+	// test cases should be separated -- independent with each other
+	// before each test case -- launch the browser and login
+	// @test -- execute test case
+	// after each test case -- close the browser
+
+}

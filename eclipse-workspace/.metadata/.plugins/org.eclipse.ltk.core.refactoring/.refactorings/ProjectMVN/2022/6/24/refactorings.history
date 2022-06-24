@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ReadExcel.java&apos; to &apos;TestNGLearnings/src/test/java/com.test.TestNGLearnings&apos;&#x0D;&#x0A;- Original project: &apos;ProjectMVN&apos;&#x0D;&#x0A;- Destination element: &apos;TestNGLearnings/src/test/java/com.test.TestNGLearnings&apos;&#x0D;&#x0A;- Original element: &apos;TestCases.ReadExcel.java&apos;" description="Copy compilation unit" destination="=TestNGLearnings/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.test.TestNGLearnings" element1="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;TestCases{ReadExcel.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1654669224414" units="1" version="1.0"/>
+</session>

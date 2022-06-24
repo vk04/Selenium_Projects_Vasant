@@ -1,0 +1,18 @@
+package Pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.test.testng.orangeHrm.Base;
+
+public class LeavePage extends Base {
+	// Page Factory - OR:
+	
+	@FindBy(xpath = "//b[normalize-space()='Leave'] ")
+	WebElement Leave;
+	
+	@FindBy(xpath = "//a[@id='menu_leave_assignLeave']")
+	WebElement AssignLeave;
+	
+	
+}

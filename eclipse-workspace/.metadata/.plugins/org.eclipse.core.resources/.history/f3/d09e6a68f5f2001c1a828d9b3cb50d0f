@@ -1,0 +1,8 @@
+package Pages;
+
+import com.test.testng.orangeHrm.Base;
+
+public class LeavePage extends Base {
+	// Page Factory - OR:
+	
+}

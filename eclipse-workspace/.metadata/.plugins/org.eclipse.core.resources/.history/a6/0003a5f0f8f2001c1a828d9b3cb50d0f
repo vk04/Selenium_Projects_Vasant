@@ -1,0 +1,55 @@
+package Pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+
+import com.test.testng.orangeHrm.Base;
+
+public class LeavePage extends Base {
+	// Page Factory - OR:
+	
+	@FindBy(xpath = "//b[normalize-space()='Leave'] ")
+	WebElement Leave;
+	
+	@FindBy(xpath = "//a[@id='menu_leave_assignLeave']")
+	WebElement AssignLeave;
+	
+	@FindBy(xpath = "//input[@id='assignleave_txtEmployee_empName']")
+	WebElement EmployeeName;
+	
+	// Initializing the Page Objects:
+		public LeavePage() {
+			PageFactory.initElements(driver, this);
+
+		}
+		
+	
+		// Actions:
+		
+		public void assignPageTest() {
+			
+			
+			Leave.click();
+			wait.until(ExpectedConditions.elementToBeClickable(AssignLeave));
+			AssignLeave.click();
+			
+			wait.until(ExpectedConditions.elementToBeClickable(EmployeeName));
+			EmployeeName.sendKeys(ar.get(0));
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+}

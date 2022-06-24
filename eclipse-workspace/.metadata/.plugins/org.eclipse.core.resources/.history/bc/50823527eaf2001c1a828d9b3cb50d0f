@@ -1,0 +1,50 @@
+package learningCollections;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+
+		ArrayList<Object> ar = new ArrayList<Object>();
+
+		ar.add("Sangeetha");
+		ar.add(333);
+		ar.add(45);
+		ar.add(56);
+		ar.add(333);
+		System.out.println(ar.get(0));
+		
+		System.out.println("-------");
+		// For Each loop
+		for (Object i : ar) {
+
+			System.out.println(i);
+
+		}
+		System.out.println("-------");
+		// Iterator
+
+		Iterator<Object> it = ar.iterator();
+
+		while (it.hasNext()) {
+			System.out.println(it.next());
+		}
+
+		System.out.println("-------");
+
+		// List with other Collection
+
+		ArrayList<String> names = new ArrayList<String>(Arrays.asList("Java", "Python", "C#", "Ruby"));
+		
+		for(String str:names) {
+			System.out.println(str);
+		}
+
+		
+		System.out.println();
+	}
+
+}

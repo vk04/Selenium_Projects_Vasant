@@ -1,0 +1,13 @@
+package Pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.test.testng.orangeHrm.Base;
+
+public class LeavePage extends Base {
+	// Page Factory - OR:
+	
+	@FindBy(xpath = "//span[contains(text(),'Assign Leave')]")
+	WebElement assignLeave;
+}

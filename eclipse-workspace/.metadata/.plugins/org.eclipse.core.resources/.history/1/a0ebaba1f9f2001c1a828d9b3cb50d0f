@@ -1,0 +1,14 @@
+package com.test.testng.orangeHrm;
+
+import Pages.HomePage;
+import Pages.LeavePage;
+import Pages.LoginPage;
+
+public class AssignLeaveTest extends Base{
+	LoginPage loginPage;
+	HomePage homepage;
+	LeavePage leavepage;
+	
+	
+	
+}
